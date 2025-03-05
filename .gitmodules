@@ -1,0 +1,9 @@
+[submodule "timphongtro-admin"]
+	path = timphongtro-admin
+	url = https://github.com/markvu2607/timphongtro-admin
+[submodule "timphongtro-web"]
+	path = timphongtro-web
+	url = https://github.com/markvu2607/timphongtro-web
+[submodule "timphongtro-api"]
+	path = timphongtro-api
+	url = https://github.com/markvu2607/timphongtro-api

@@ -1,0 +1,14 @@
+version: "3"
+
+tasks:
+  git:update:
+    cmds:
+      - git submodule update --init --recursive
+
+  docker:dev:up:
+    cmds:
+      - docker compose -f docker-compose.dev.yml up -d
+
+  docker:dev:down:
+    cmds:
+      - docker compose -f docker-compose.dev.yml down
